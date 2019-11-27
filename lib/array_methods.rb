@@ -24,8 +24,8 @@ def find_min_value(array)
   min_value = 0
   counter = 0
   while array[counter] {
-    if array[counter] < max_value
-      max_value = array[counter]
+    if array[counter] < min_value
+      min_value = array[counter]
     end
     counter += 1
   }
